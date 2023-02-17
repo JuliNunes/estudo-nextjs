@@ -1,0 +1,27 @@
+.navbar {
+	background-color: burlywood;
+	height: 50px;
+	position: relative;
+}
+
+.nav {
+	list-style: none;
+	display: flex;
+	gap: 50px;
+	position: absolute;
+	top: 30%;
+	margin-left: 3rem;
+}
+
+.navlink {
+	text-decoration: none;
+	transition: 0.3s;
+	color: black;
+}
+
+.navlink:hover {
+	background-color: gray;
+	color: white;
+	padding: 1px 5px 1px 5px;
+	border-radius: 5px;
+}
