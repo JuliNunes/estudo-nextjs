@@ -1,7 +1,18 @@
+import Head from 'next/head';
+import Image from 'next/image';
+
+import styles from '@/styles/home.module.css';
+
 export default function HomePage() {
 	return (
 		<>
-			<h1>Home Page</h1>
+			<Head>
+				<title>Página Principal</title>
+				<meta name='keywords' content='Roupas, Camisas, Calçados' />
+			</Head>
+			<div className={styles.title}>
+				<h1>Home Page</h1>
+			</div>
 		</>
 	);
 }
